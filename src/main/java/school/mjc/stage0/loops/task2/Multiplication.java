@@ -9,13 +9,14 @@ public class Multiplication {
                 System.out.println(i * multiplyByAndToInclusive);
                 i++;
             }
-        } else if (i == 0) {
-        }else {
+        } else if (multiplyByAndToInclusive < 0) {
             while (i >= multiplyByAndToInclusive) {
                 System.out.println(negativeI * multiplyByAndToInclusive);
                 i--;
                 negativeI ++;
             }
+        }else {
+            System.out.print("");
         }
     }
 }
